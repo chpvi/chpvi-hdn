@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Poppins:wght@400;900&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Poppins:wght@400;800;900&family=Roboto+Slab&display=swap');
+
+.contenedorhead{
+    display: flex;
+    color: rgb(12, 12, 141);
+    justify-content: left;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin-left: 50px;
+    gap: 200px;
+        
+}
+
+
+.contenedorhead > .encabezadohead > h1 {
+font-family: arial narrow,Roboto,Poppins;
+font-family: roboto;
+font-size: 2.5rem;
+font-weight: 900;
+       
+}
+
+.contenedorhead > .encabezadohead > h2 {
+    font-family: arial narrow,Roboto,Poppins;
+    font-family: roboto;
+    font-size: 2rem;
+    font-weight: 800;
+           
+    }
+
+
+.menus {
+    width: auto;
+    height: 60px;
+    background-color: rgb(5, 5, 63);
+        
+}
+
+.menus > .barramenus{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 1.7rem; 
+    font-weight: bold;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 3px;
+    gap: 1px ;
+    
+}
+
+.menus > .barramenus > li {
+  cursor: pointer;  
+    
+}
+
+.menus > .barramenus > li:hover {
+    color: yellow;
+    border-radius: 5px;
+
+      
+  }
+
+
+.carouselcontainer{
+width: 2040px ;
+height: 600px;
+overflow: hidden; 
+position: relative;
+background-color: brown;
+
+}
+
+.carouselcontainer > .carouselpista{
+ display:flex;
+ transition: transform 0.9s ease-in-out;
+}
+
+.carouselcontainer > .carouselpista >  .carouselithen {
+width: 2040px;
+height: 600px;
+background-size: cover;
+object-fit: cover;
+}
+
+.carouselcontainer > .carouselpista >  .carouselithen > .banda {
+    width: 2040px;
+     height: 600px;
+     background-size: cover;
+     object-fit: cover;
+     align-items: center;
+    
+    }
+
+
+    
+
+
